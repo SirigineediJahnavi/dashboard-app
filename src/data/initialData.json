@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "cspm-executive-dashboard",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "widget-1",
+          "name": "Cloud Accounts",
+          "text": "Total: 2 (2 Connected, 0 Not Connected). Monitor your cloud accounts and ensure all are properly connected for comprehensive security coverage."
+        },
+        {
+          "id": "widget-2", 
+          "name": "Cloud Account Risk Assessment",
+          "text": "Total: 9,659 (7,253 Passed, 1,689 Warning, 681 Failed, 36 Not Available). Comprehensive risk analysis across all cloud resources."
+        }
+      ]
+    },
+    {
+      "id": "cwpp-dashboard",
+      "name": "CWPP Dashboard", 
+      "widgets": [
+        {
+          "id": "widget-3",
+          "name": "Top 5 Namespace Specific Alerts",
+          "text": "No Graph data available! Monitor namespace-specific security alerts and incidents across your containerized workloads."
+        },
+        {
+          "id": "widget-4",
+          "name": "Workload Alerts",
+          "text": "No Graph data available! Track security alerts and threats affecting your workloads in real-time for better incident response."
+        }
+      ]
+    },
+    {
+      "id": "registry-scan",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "widget-5", 
+          "name": "Image Risk Assessment",
+          "text": "Total Vulnerabilities: 1,470 (2 Critical, 9 High, 150 Medium, 1309 Low). Complete vulnerability analysis of container images in your registry."
+        },
+        {
+          "id": "widget-6",
+          "name": "Image Security Issues", 
+          "text": "Total Images: 1,470 (2 Critical, 9 High, 150 Medium, 1309 Low). Security assessment and vulnerability tracking for all container images."
+        }
+      ]
+    }
+  ]
+}
