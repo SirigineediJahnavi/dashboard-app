@@ -1,24 +1,10 @@
 import React from 'react';
+import ChartWidget from './ChartWidget';
 
 const Widget = ({ widget, onRemove }) => {
   const renderWidgetContent = () => {
     if (widget.type === 'chart') {
-      return (
-        <div style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '16px',
-          backgroundColor: '#f3f4f6',
-          borderRadius: '8px',
-          color: '#6b7280',
-          fontSize: '14px',
-        }}>
-          <div style={{ fontSize: '24px', marginBottom: '8px' }}>📊</div>
-          <div>No Graph data available!</div>
-        </div>
-      );
+      return <ChartWidget widget={widget} />;
     }
 
     return (
@@ -28,6 +14,7 @@ const Widget = ({ widget, onRemove }) => {
         color: '#374151',
         backgroundColor: '#ffffff',
         borderRadius: '6px',
+        whiteSpace: 'pre-line',
       }}>
         {widget.content}
       </div>

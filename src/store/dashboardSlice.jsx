@@ -11,13 +11,13 @@ const initialState = {
           id: 'cloud-accounts',
           name: 'Cloud Accounts',
           content: 'Connected (2)\nNot Connected (2)\nTotal: 2',
-          type: 'text'
+          type: 'chart'
         },
         {
           id: 'cloud-risk-assessment',
           name: 'Cloud Account Risk Assessment',
           content: 'Failed (1689)\nWarning (681)\nNot available (36)\nPassed (7253)\nTotal: 9659',
-          type: 'text'
+          type: 'chart'
         }
       ]
     },
